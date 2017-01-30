@@ -1,0 +1,11 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/mattn/go-runewidth
+	branch = master
+	commit = 737072b4e32b7a5018b4a7125da8d12de90e8045
+	parent = bf8e272e41400536e4c96122a9206c5b714e06cb
+	cmdver = 0.3.0

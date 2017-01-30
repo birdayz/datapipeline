@@ -1,0 +1,11 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/olekukonko/tablewriter
+	branch = master
+	commit = bdcc175572fd7abece6c831e643891b9331bc9e7
+	parent = 84f3eda88f786979f89ec42c2db0dc29e063aae2
+	cmdver = 0.3.0

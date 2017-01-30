@@ -1,0 +1,11 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://gopkg.in/yaml.v2
+	branch = master
+	commit = a5b47d31c556af34a302ce5d659e6fea44d90de0
+	parent = 8c80db754b3fb6fcabe72cede5cf083a61f573a5
+	cmdver = 0.3.0
