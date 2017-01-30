@@ -5,7 +5,9 @@ Text Tables and JSON are supported for output.
 There are several filters to process input data before writing the output file:
 - Removal of duplicates
 - Sorting
-- Validation The tool can read from standard input and write to standard output,
+- Validation
+
+The tool can read from standard input and write to standard output,
 but using files is also possible. See Usage for details.
 ## Performance
 The decision towards channels has a cost: each pipeline stage costs around 300ns
@@ -55,20 +57,20 @@ with its corresponding file suffix.
 ```
 ### Examples
 
-`./csvconverter testdata/hotels.csv` converts the csv file to a fancy ascii table. The output file is written to the folder of the input file.
+`./csvconverter testdata/sample_data.csv` converts the csv file to a fancy ascii table. The output file is written to the folder of the input file.
 
-`./csvconverter -outputFormat=json testdata/hotels.csv` converts the json
+`./csvconverter -outputFormat=json testdata/sample_data.csv` converts the json
 
-`./csvconverter testdata/hotels.csv testdata/hotels.json` does the same as above. the tool can infer the output format from the file extension, if an output path is given.
+`./csvconverter testdata/sample_data.csv testdata/sample_data.json` does the same as above. the tool can infer the output format from the file extension, if an output path is given.
 
 csvconverter can read from stdin and write to stdout:
 
-`cat testdata/hotels.csv | ./csvconverter -` runs the csvconverter (with the default output format: ascii table) and prints output to stdout.
+`cat testdata/sample_data.csv | ./csvconverter -` runs the csvconverter (with the default output format: ascii table) and prints output to stdout.
 
 filter duplicates of a specific field:
 
-`./csvconverter -dedupField=name testdata/hotels.csv` removes duplicate rows with identical values in the "name" column. Rows occuring first have priority.
+`./csvconverter -dedupField=name testdata/sample_data.csv` removes duplicate rows with identical values in the "name" column. Rows occuring first have priority.
 
 sort output according to a specific field (column):
 
-`./csvconverter -sortField=name testdata/hotels.csv` sorts the rows by the name column/field. The order may be changed with the -sortOrder flag.
+`./csvconverter -sortField=name testdata/sample_data.csv` sorts the rows by the name column/field. The order may be changed with the -sortOrder flag.
