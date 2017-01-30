@@ -1,3 +1,12 @@
+## Datapipeline
+This is a small tool to convert documents from various source formats to
+different output formats. Currently, CSV is supported for input and YAML, Ascii
+Text Tables and JSON are supported for output.
+There are several filters to process input data before writing the output file:
+- Removal of duplicates
+- Sorting
+- Validation The tool can read from standard input and write to standard output,
+but using files is also possible. See Usage for details.
 ## Performance
 The decision towards channels has a cost: each pipeline stage costs around 300ns
 (on my I5-3570K CPU) of CPU time per Entry (CSV row). This is ~3,3 million
