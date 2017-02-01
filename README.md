@@ -20,7 +20,9 @@ introduced that use multiple goroutines. Other stages of the pipeline do not
 have to be touched in this case.
 
 ## Building
-Copy the "datapipeline" folder to your $GOPATH/src folder. There is a makefile with several goals:
+```
+go get github.com/birdayz/datapipeline
+```
 ### build (default)
 builds the actual commandline tool. `make` or `make build`
 ### clean
