@@ -1,5 +1,5 @@
 ## Datapipeline
-![Build Status](https://codeship.com/projects/23b8cf00-0e76-0135-7de1-5ac1425fdf96/status?branch=master)
+[![Build Status](https://codeship.com/projects/23b8cf00-0e76-0135-7de1-5ac1425fdf96/status?branch=master)](https://app.codeship.com/projects/215982)
 
 This is a small tool to convert documents from various source formats to
 different output formats. Currently, CSV is supported for input and YAML, Ascii
