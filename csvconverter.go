@@ -1,10 +1,10 @@
 package main
 
 import (
-	"datapipeline/core"
-	"datapipeline/core/filter"
-	"datapipeline/core/marshaler"
-	"datapipeline/core/unmarshaler"
+	"github.com/birdayz/datapipeline/core"
+	"github.com/birdayz/datapipeline/core/filter"
+	"github.com/birdayz/datapipeline/core/marshaler"
+	"github.com/birdayz/datapipeline/core/unmarshaler"
 	"errors"
 	"flag"
 	"fmt"

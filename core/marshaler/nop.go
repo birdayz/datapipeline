@@ -1,6 +1,6 @@
 package marshaler
 
-import "datapipeline/core"
+import "github.com/birdayz/datapipeline/core"
 
 // NopMarshaler drops all entries read from the input channel
 type nopMarshaler struct{}

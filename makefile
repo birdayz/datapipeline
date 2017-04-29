@@ -10,7 +10,7 @@ bench:
 lint:
 	@go get github.com/golang/lint/golint
 	@go get github.com/gordonklaus/ineffassign
-	@go vet $$(go list datapipeline/... | grep -v vendor)
-	@go list datapipeline/... | grep -v /vendor/ | xargs -L1 golint
+	@go vet $$(go list github.com/birdayz/datapipeline/... | grep -v vendor)
+	@go list github.com/birdayz/datapipeline/... | grep -v /vendor/ | xargs -L1 golint
 	@ineffassign ${CURDIR}
 

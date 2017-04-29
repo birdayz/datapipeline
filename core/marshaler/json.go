@@ -1,7 +1,7 @@
 package marshaler
 
 import (
-	"datapipeline/core"
+	"github.com/birdayz/datapipeline/core"
 	"encoding/json"
 	"io"
 )

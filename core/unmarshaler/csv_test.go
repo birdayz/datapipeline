@@ -2,7 +2,7 @@ package unmarshaler
 
 import (
 	"bytes"
-	"datapipeline/core"
+	"github.com/birdayz/datapipeline/core"
 	"testing"
 
 	"github.com/stretchr/testify/require"

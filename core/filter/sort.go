@@ -1,6 +1,6 @@
 package filter
 
-import "datapipeline/core"
+import "github.com/birdayz/datapipeline/core"
 import "sort"
 
 type sortFilter struct {

@@ -2,7 +2,7 @@ package marshaler
 
 import (
 	"bytes"
-	"datapipeline/core"
+	"github.com/birdayz/datapipeline/core"
 	"io"
 
 	"gopkg.in/yaml.v2"

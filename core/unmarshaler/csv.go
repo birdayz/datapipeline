@@ -1,7 +1,7 @@
 package unmarshaler
 
 import (
-	"datapipeline/core"
+	"github.com/birdayz/datapipeline/core"
 	"encoding/csv"
 	"io"
 )

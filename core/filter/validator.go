@@ -1,6 +1,6 @@
 package filter
 
-import "datapipeline/core"
+import "github.com/birdayz/datapipeline/core"
 
 // A Validator defines the logic how an Entry is validated. It returns true if
 // the Entry is valid.
